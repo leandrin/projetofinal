@@ -20,8 +20,9 @@ body {
 
 .logo img{
 
-	width: 500px;
-	height: 300px;
+	max-width: 100%;
+	height: auto;
+  display:block;
 
 }
 
@@ -192,7 +193,6 @@ p {
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
-  margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
 
